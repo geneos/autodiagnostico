@@ -80,7 +80,7 @@
                             	<p>A través del siguiente ejercicio, podrá tener una rápida visión de la Cooperativa y su situación societaria. 
 	                         </p>
                             	<p>
-	                            	Extraído del  <a href="http://www.idelcoop.org.ar/sites/default/files/revista/articulos/pdf/2013_201820131.pdf"><strong>Manual para la práctica del cooperativismo de trabajo </strong></a> de M. Eleonora Feser, Magalí Bausset y Valeria Mutuberría Lazarini.
+	                            	Extraído del  <a href="http://www.idelcoop.org.ar/sites/default/files/revista/articulos/pdf/2013_201820131.pdf" target="_blank"><strong>Manual para la práctica del cooperativismo de trabajo </strong></a> de M. Eleonora Feser, Magalí Bausset y Valeria Mutuberría Lazarini.
                             	</p>
                             </div>
                         </div>
@@ -129,46 +129,649 @@
 		                            </div>
 		                            <div class="form-bottom">
 				                        <div class="form-group">
-				                        	<label class="sr-only" for="form-email">Email</label>
-				                        	<input type="text" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email">
+				                        	<label class="sr-only" for="form-insc-afip">Fecha de inscripción en AFIP:</label>
+				                        	<input type="date" name="form-insc-afip" placeholder="Fecha de inscripción en AFIP..." class="form-control" id="form-insc-afip">
 				                        </div>
+				                      
 				                        <div class="form-group">
-				                    		<label class="sr-only" for="form-password">Password</label>
-				                        	<input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
+				                    		<label class="sr-only" for="form-alta-iva">Mes de alta en IVA:</label>
+				                        	<input type="month" name="form-alta-iva" placeholder="Mes de alta en IVA..." class="form-control" id="form-alta-iva">
 				                        </div>
-				                        <div class="form-group">
-				                        	<label class="sr-only" for="form-repeat-password">Repeat password</label>
-				                        	<input type="password" name="form-repeat-password" placeholder="Repeat password..." 
-				                        				class="form-repeat-password form-control" id="form-repeat-password">
+				                      
+				                      <div class="form-group">
+				                    		<label class="sr-only" for="form-alta-ganancias">Mes de alta en Ganancias:</label>
+				                        	<input type="month" name="form-alta-ganancias" placeholder="Mes de alta en Ganancias..." class="form-control" id="form-alta-ganancias">
+				                        </div>
+				                      
+				                      <div class="form-group">
+				                    		<label class="sr-only" for="form-alta-fpc">Mes de alta en Fondo para la Educ. y Prom. Coop:</label>
+				                        	<input type="month" name="form-alta-fpc" placeholder="Mes de alta en el Fondo para la Educ. y Prom. Coop..." class="form-control" id="form-alta-fpc">
+				                        </div>
+   										<div class="form-group">
+				                        	<label class="sr-only" for="form-insc-rentas">Fecha de inscripción en Rentas:</label>
+				                        	<input type="date" name="form-insc-rentas" placeholder="Fecha de inscripción en Rentas..." class="form-control" id="form-insc-rentas">
 				                        </div>
 				                        <button type="button" class="btn btn-previous">Anterior</button>
 				                        <button type="button" class="btn btn-next">Siguiente</button>
 				                    </div>
 			                    </fieldset>
 			                    
-			                    <fieldset>
+ 								<fieldset>
 		                        	<div class="form-top">
 		                        		<div class="form-top-left">
-		                        			<h3>Step 3 / 3</h3>
-		                            		<p>Social media profiles:</p>
+		                        			<h3>Cierre de ejercicio - Paso 3 / 24</h3>
+		                            		<p>Verifique que la fecha de cierre de ejercicio contable que se encuentra en el Estatuto sea la misma que está informada en AFIP.</p>
 		                        		</div>
 		                        		<div class="form-top-right">
-		                        			<i class="fa fa-twitter"></i>
+		                        			<i class="fa fa-calendar-check-o"></i>
 		                        		</div>
 		                            </div>
 		                            <div class="form-bottom">
 				                    	<div class="form-group">
-				                    		<label class="sr-only" for="form-facebook">Facebook</label>
-				                        	<input type="text" name="form-facebook" placeholder="Facebook..." class="form-facebook form-control" id="form-facebook">
+				                    		<label class="sr-only" for="form-cierre-esta">Cierre de ejercicio según Estatuto:</label>
+				                        	<input type="text" name="form-cierre-esta" placeholder="Cierre de ejercicio según Estatuto..." class="form-control" id="form-cierre-esta">
 				                        </div>
-				                        <div class="form-group">
-				                        	<label class="sr-only" for="form-twitter">Twitter</label>
-				                        	<input type="text" name="form-twitter" placeholder="Twitter..." class="form-twitter form-control" id="form-twitter">
+				                        
+				                       <div class="form-group">
+				                    		<label class="sr-only" for="form-cierre-afip">Cierre de ejercicio según inscripción AFIP:</label>
+				                        	<input type="text" name="form-cierre-afip" placeholder="Cierre de ejercicio según inscripción AFIP..." class="form-control" id="form-cierre-afip">
 				                        </div>
-				                        <div class="form-group">
-				                        	<label class="sr-only" for="form-google-plus">Google plus</label>
-				                        	<input type="text" name="form-google-plus" placeholder="Google plus..." class="form-google-plus form-control" id="form-google-plus">
+				                        <button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+			                   	<fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Libros de la Cooperativa - Paso 4 / 24</h3>
+		                            		<p>Verifique que la fechas de los primeros registros en cada libro sean posteriores a la fecha de rúbrica.</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        			<i class="fa fa-book"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+				                    	
+		                            <table class="table table-condensed">
+		                               <thead>
+		                                 <tr>
+		                                   <th>LIBRO</th>
+		                                   <th>FECHA RÚBRICA</th>
+		                                   <th>FECHA 1er REGISTRO</th>
+		                                 </tr>
+		                               </thead>
+		                               <tbody>
+		                                 <tr>
+		                                   <td>1. Diario</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+		                                   <td>2.Inventario y balance</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+	   										<td>3.Actas de asamblea</td>
+	   										<td> </td>
+	   										<td> </td>
+	 									 </tr>
+	 									 <tr>   
+	 									   <td>4.Actas del Consejo de Administración</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+	 									 <tr>   
+	 									   <td>5.Registro de asociados</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+		                                 </tr>
+										 <tr>
+		                                   <td>6. Informe de auditoría</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+		                                   <td>7.Informe de sindicatura</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+	   										<td>8.IVA Compras</td>
+	   										<td> </td>
+	   										<td> </td>
+	 									 </tr>
+	 									 <tr>   
+	 									   <td>9.IVA Ventas</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+		                                   <td>10.Registro de asistencia a asambleas</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                </tr>
+		                               </tbody>
+		                             </table>
+
+				                        <button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+	                            <fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Actualización de los libros - Paso 5 / 24</h3>
+		                            		<p>Verifique que los libros estén al día.</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        			<i class="fa fa-book"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+				                    	
+		                            <table class="table table-condensed">
+		                               <thead>
+		                                 <tr>
+		                                   <th>LIBRO</th>
+		                                   <th>Pregunta a responder</th>
+		                                   <th>Confirma</th>
+		                                 </tr>
+		                               </thead>
+		                               <tbody>
+		                                 <tr>
+		                                   <td>1. Diario</td>
+		                                   <td>¿Tiene copiados los asientos del último balance cerrado?</td>
+		                                   <td> 
+											<div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="form-bala-check">
+											    Si
+											   </label>
+											</div>
+		                                   </td>
+		                                 </tr>
+		                                 <tr>
+		                                   <td>2.Inventario y balance</td>
+		                                   <td> ¿Tiene copiado y firmado por el contador y las autoridades de la Cooperativa el último balance con el inventario?</td>
+		                                   <td><div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="form-bala-check">
+											    Si
+											   </label>
+											</div>
+											</td>
+		                                 </tr>
+		                                 <tr>
+	   										<td>3.Actas de asamblea</td>
+	   										<td> ¿Está copiada la asamblea que aprueba el último balance cerrado?</td>
+	   										 <td><div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="form-bala-check">
+											    Si
+											   </label>
+											</div>
+											</td>
+	 									 </tr>
+	 									 <tr>   
+	 									   <td>4.Actas del Consejo de Administración</td>
+		                                   <td> ¿Están escritas las asambleas con la regularidad que exige el estatuto? (en general es por lo menos un mes)</td>
+		                                    <td><div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="form-bala-check">
+											    Si
+											   </label>
+											</div>
+											</td>
+		                                 </tr>
+	 									 <tr>   
+	 									   <td>5.Registro de asociados</td>
+		                                   <td> ¿Todos los trabajadores de la Cooperativa están pasados al libro? Las altas y las bajas de asociados, ¿tienen su acta de Consejo correspondiente?</td>
+		                                    <td><div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="form-bala-check">
+											    Si
+											   </label>
+											</div>
+											</td>
+		                                 </tr>
+		                                 <tr>
+		                                 </tr>
+										 <tr>
+		                                   <td>6. Informe de auditoría</td>
+		                                   <td>¿Están pasados los informes trimestrales realizados por el contador de la Cooperativa? </td>
+		                                    <td><div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="form-bala-check">
+											    Si
+											   </label>
+											</div>
+											</td>
+		                                 </tr>
+		                                 <tr>
+		                                   <td>7.Informe de sindicatura</td>
+		                                   <td> ¿Están pasados todos los informes del Síndico, sobre todo el del último balance?</td>
+		                                    <td><div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="form-bala-check">
+											    Si
+											   </label>
+											</div>
+											</td>
+		                                 </tr>
+		                                 <tr>
+	   										<td>8.IVA Compras</td>
+	   										<td>¿Están copiadas todas las facturas de compras hasta el mes pasado?</td>
+	   										 <td><div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="form-bala-check">
+											    Si
+											   </label>
+											</div>
+											</td>
+	 									 </tr>
+	 									 <tr>   
+	 									   <td>9.IVA Ventas</td>
+		                                   <td>¿Están copiadas todas las facturas de ventas hasta el mes pasado?</td>
+		                                    <td><div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="form-bala-check">
+											    Si
+											   </label>
+											</div>
+											</td>
+		                                 </tr>
+		                                 <tr>
+		                                   <td>10.Registro de asistencia a asambleas</td>
+		                                   <td>Cada Asamblea de Asociados, ¿tiene su lisa de concurrentes y firma en este libro?</td>
+		                                    <td><div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="form-bala-check">
+											    Si
+											   </label>
+											</div>
+											</td>
+		                                </tr>
+		                               </tbody>
+		                             </table>
+
+				                        <button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+  								<fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Disponibilidad de libros - Paso 6 / 24</h3>
+		                            		<p>Verifique que no falten hojas para pasar las próximas registraciones en los libros, caso contrario rubrique nuevos.</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        			<i class="fa fa-book"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+				                    	
+		                            <table class="table table-condensed">
+		                               <thead>
+		                                 <tr>
+		                                   <th>LIBRO</th>
+		                                   <th>Qué me falta pasar para estar al día</th>
+		                                   <th>Hojas que estimo voy a ocupar en pasar lo que me falta</th>
+		                                   <th>Hojas en blanco</th>
+		                                 </tr>
+		                               </thead>
+		                               <tbody>
+		                                 <tr>
+		                                   <td>1. Diario</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+		                                   <td>2.Inventario y balance</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+	   										<td>3.Actas de asamblea</td>
+	   										<td> </td>
+	   										<td> </td>
+	   										<td> </td>
+	 									 </tr>
+	 									 <tr>   
+	 									   <td>4.Actas del Consejo de Administración</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+	 									 <tr>   
+	 									   <td>5.Registro de asociados</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+		                                 </tr>
+										 <tr>
+		                                   <td>6. Informe de auditoría</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+		                                   <td>7.Informe de sindicatura</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+	   										<td>8.IVA Compras</td>
+	   										<td> </td>
+	   										<td> </td>
+	   										<td> </td>
+	 									 </tr>
+	 									 <tr>   
+	 									   <td>9.IVA Ventas</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+		                                   <td>10.Registro de asistencia a asambleas</td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                </tr>
+		                               </tbody>
+		                             </table>
+
+				                        <button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+			                    <fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Revisión memoria - Paso 7 / 24</h3>
+		                            		<p>Verifique que el formato de las memorias de cada ejercicio se ajuste a la <a href="http://www.inaes.gob.ar/wp-content/uploads/2014/11/res-729-78-anexo-2.pdf" target="_blank">estructura solicitada por el INAES.</a></p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        		<i class="fa fa-check-square-o"></i>		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+
+     									<button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+	                            <fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Verificación de asambleas - Paso 8 / 24</h3>
+		                            		<p>Verifique que en los tres últimos ejercios se hayan realizado las asambleas dentro de los cuatro meses de cerrado el ejercicio.</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        			<i class="fa fa-users"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+				                    	
+		                            <table class="table table-condensed">
+		                               <thead>
+		                                 <tr>
+		                                   <th>AÑO</th>
+		                                   <th>Fecha de cierre del ejercicio</th>
+		                                   <th>Fecha de la asamblea que aprueba el balance</th>
+		                                 </tr>
+		                               </thead>
+		                               <tbody>
+		                                 <tr>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                   <td> </td>
+		                                 </tr>
+		                                 <tr>
+	   										<td> </td>
+ 		                                    <td> </td>
+	   										<td> </td>
+	 									 </tr>
+		                               </tbody>
+		                             </table>
+
+				                        <button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+								<fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Verificación de actividad - Paso 9 / 24</h3>
+		                            		<p>Verifique la coincidencia entre la actividad real de la Cooperativa y la actividad que se declaró en la constancia de inscripción de AFIP y Rentas. Para saber cuál es la actividad que se declaró en AFIP, obtenga una <a href="https://seti.afip.gob.ar/padron-puc-constancia-internet/ConsultaConstanciaAction.do" target="_blank">constancia de inscripción de la Cooperativa</a>, en ella se observará en la parte inferior un número, vaya a la página web de AFIP y acceda al <a href="http://www.afip.gob.ar/genericos/nomencladorActividades/index.aspx" target="_blank"> nomenclador de actividades</a>, búsque por el código de actividad obtenido en el paso anterior.</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        		  <i class="fa fa-external-link"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+				                    	<div class="form-group">
+				                    		<label class="sr-only" for="form-act-real">Actividad real:</label>
+				                        	<input type="text" name="form-act-real" placeholder="Actividad real..." class="form-control" id="form-act-real">
 				                        </div>
+				                        
+				                       <div class="form-group">
+				                    		<label class="sr-only" for="form-act-afip">Actividad declarada en AFIP:</label>
+				                        	<input type="text" name="form-act-afip" placeholder="Actividad declarada en AFIP" class="form-control" id="form-act-afip">
+				                        </div>
+
+				                         <div class="form-group">
+				                    		<label class="sr-only" for="form-act-rentas">Actividad declarada en Rentas:</label>
+				                        	<input type="text" name="form-act-rentas" placeholder="Actividad declarada en Rentas" class="form-control" id="form-act-rentas">
+				                        </div>
+
+				                        <button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+								<fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Alta en impuestos - Paso 10 / 24</h3>
+		                            		<p>Verifique en la constancia de la AFIP, si la Cooperativa se encuentra inscripta en, por lo menos,los siguientes impuestos.</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        		<i class="fa fa-briefcase"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+				                    	
+		                            <table class="table table-condensed">
+		                               <thead>
+		                                 <tr>
+		                                   <th>Ipuesto</th>
+		                                   <th>Confirmado</th>
+		                                 </tr>
+		                               </thead>
+		                               <tbody>
+		                                 <tr>
+		                                   <td>IVA </td>
+		                                   <td> <div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="form-bala-check">
+											    Si
+											   </label>
+											</div></td>
+		                                 </tr>
+		                                 <tr>
+		                                   <td>Impuesto a las ganancias</td>
+		                                   <td><div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="form-bala-check">
+											    Si
+											   </label>
+											</div> </td>
+		                                 </tr>
+		                                 <tr>
+	   										<td>Fondo para educación y promoción cooperativa </td>
+ 		                                    <td><div class="checkbox">
+											  <label>
+											    <input type="checkbox" value="form-bala-check">
+											    Si
+											   </label>
+											</div> </td>
+	 									 </tr>
+		                               </tbody>
+		                             </table>
+
+				                        <button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+			                     <fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Clave fiscal - Paso 11 / 24</h3>
+		                            		<p>Verifique que la clave fiscal de la Cooperativa esté asociada a la del presidente actual</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        		<i class="fa fa-check-square-o"></i>		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+
+     									<button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+			                     <fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Monotributo - Paso 12 / 24</h3>
+		                            		<p>Corrobore que todos los asociados de la Cooperativa se encuentren inscriptos en el Monotributo.</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        		 <i class="fa fa-file-text"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+
+     									<button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+
+			                     <fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Impuestos - Paso 13 / 24</h3>
+		                            		<p>Verifique que se haya presentado anualmente la declaración jurada del Fondo de promoción y Educación Cooperativa.</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        		 <i class="fa fa-check-circle"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+
+     									<button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+			                     <fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Infome fines fiscales - Paso 14 / 24</h3>
+		                            		<p>Verifique que se haya presentado anualmente el informe para fines fiscales.</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        		 <i class="fa fa-check-circle"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+
+     									<button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+			                     <fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Exención Ganancias - Paso 15 / 24</h3>
+		                            		<p>Ingrese a la página <a href="http://www.afip.gob.ar">WEB de la AFIP</a> y corrobore que la Cooperativa posee la exención en el impuesto a las ganancias.</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        		 <i class="fa fa-check-circle"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+
+     									<button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+			                     <fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Convenio Multilateral - Paso 16 / 24</h3>
+		                            		<p>Si la Cooperativa tiene ventas en dos o más provincias (considere a la CABA como una provincia), corrobore que la Cooperativa se encuentre inscripta en Convenio Multilateral.</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        		 <i class="fa fa-check-circle"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+
+     									<button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+
+			                     <fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Exención ARBA - Paso 17 / 24</h3>
+		                            		<p>Si la Cooperativa realiza ventas en la provincia de Buenos Aires (considere a la CABA como una provincia), corrobore que la Cooperativa se encuentre inscripta en Convenio Multilateral.</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        		 <i class="fa fa-check-circle"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+
+     									<button type="button" class="btn btn-previous">Anterior</button>
+				                        <button type="button" class="btn btn-next">Siguiente</button>
+				                    </div>
+			                    </fieldset>
+			                    <fieldset>
+		                        	<div class="form-top">
+		                        		<div class="form-top-left">
+		                        			<h3>Retiros - Paso 24 / 24</h3>
+		                            		<p>Corrobore que los retiros sean pagados con un recibo</p>
+		                        		</div>
+		                        		<div class="form-top-right">
+		                        			<i class="fa fa-usd"></i>
+		                        		</div>
+		                            </div>
+		                            <div class="form-bottom">
+				                     
 				                        <button type="button" class="btn btn-previous">Anterior</button>
 				                        <button type="submit" class="btn">Terminar</button>
 				                    </div>
@@ -182,7 +785,6 @@
             </div>
             
         </div>
-
 
         <!-- Javascript -->
         <script src="assets/js/jquery-1.11.1.min.js"></script>
